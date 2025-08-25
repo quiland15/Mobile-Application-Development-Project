@@ -1,7 +1,7 @@
 import react from 'react';
 import { View, Text, Image, ScrollView, TextInput } from 'react-native';
 
-export default function App(): React.JSX.Element {
+export default function App() {
   return (
     <ScrollView>
       <Text>Some Text</Text>
