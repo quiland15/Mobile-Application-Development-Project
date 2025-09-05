@@ -5,7 +5,7 @@ export default function App() {
   return (
       <View>
         <Text>1. static resource/local disk</Text>
-        <Image style={styles.img} source={require('../ProjectMad/img/95b3ad21-f39e-4235-b774-2642d2cd20b9-removebg-preview.png')}/>
+        <Image style={styles.img} source={require('./img/95b3ad21-f39e-4235-b774-2642d2cd20b9-removebg-preview.png')}/>
         <Text>2. network image</Text>
         <Image source={{uri:'https://reactnative.dev/docs/assets/p_cat2.png',}}
           style={styles.img}
