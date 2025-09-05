@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { Button, Text, View } from "react-native";
 
 type CatProps = {
-  name: string;
+  name: string
 }
 
 function Cat(props: CatProps) : React.JSX.Element {
