@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
-import Textinput from './TextInput/index';
-import Header from './Header';
-import Button from './Button';
+import Textinput from '../../componets/TextInput/index';
+import Header from '../../componets/Header';
+import Button from '../../componets/Button';
 
 export default function Login() {
   return (
