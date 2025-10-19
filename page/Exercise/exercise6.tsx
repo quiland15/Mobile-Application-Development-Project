@@ -4,7 +4,7 @@ import Textinput1 from '../../componets/TextInput1';
 import RegistHeader from '../../componets/RegistHeader';
 import Button from '../../componets/Button';
 
-export default function Login() {
+export default function Exercise6() {
   const [name, setName] = useState('');
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
