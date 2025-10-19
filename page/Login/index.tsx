@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import Textinput from '../../componets/TextInput/index';
 import Header from '../../componets/Header';
 import Button from '../../componets/Button';
 
 export default function Login() {
+  const [title, useTitle] = useState('Welcome Back')
+  const onSignIn = () => {
+    console.log('Button di click');
+  }
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Header/>
@@ -16,7 +20,7 @@ export default function Login() {
       <Textinput placeholder='Password'/>
 
       {/* Tombol Login */}
-      <Button/>
+      <Button onPress={onSignIn}/>
       <Button color='red' label='Sign In Google'/>
       <Button color='blue' label='Sign In Facebook'/>
       <Button color='black' label='Sign In Apple'/>
