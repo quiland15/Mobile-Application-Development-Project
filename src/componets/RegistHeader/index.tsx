@@ -17,6 +17,6 @@ const styles = StyleSheet.create ({
     fontWeight: '700',
     color: '#000000ff',
     alignSelf: 'flex-start',
-    marginBottom: '35',
+    marginBottom: '37',
   } 
 })
